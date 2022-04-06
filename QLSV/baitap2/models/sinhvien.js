@@ -21,7 +21,7 @@ function SinhVien(
   this.dtb = 0;
 
   this.diemTB = function () {
-    this.dtb = (this.diemToan + this.diemHoa + this.diemLy) / 3;
+    this.dtb = (parseFloat(this.diemToan) + parseFloat(this.diemHoa) + parseFloat(this.diemLy)) / 3;
   };
 }
 

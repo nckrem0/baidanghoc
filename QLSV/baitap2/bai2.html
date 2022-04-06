@@ -18,26 +18,31 @@
                     <div class="col-6 form-group">
                         <label for="">Mã Sinh Viên : </label>
                         <input type="text" class="form-control" id="txtMaSV">
+                        <div id="divErrorMaSV" class="text-danger" style="display: none"></div>
                     </div>
                     <div class="col-6 form-group">
                         <label for="">Tên Sinh Viên : </label>
                         <input type="text" class="form-control" id="txtTenSV">
+                        <div id="divErrorTenSV" class="text-danger" style="display: none"></div>
                     </div>                    
                 </div>
                 <div class="row">
                     <div class="col-6 form-group">
                         <label for="">Email : </label>
                         <input type="text" class="form-control" id="txtEmail">
+                        <div id="divErrorEmail" class="text-danger" style="display: none"></div>
                     </div>
                     <div class="col-6 form-group">
                         <label for="">Mật khẩu: </label>
                         <input type="text" class="form-control" id="txtPass">
+                        <div id="divErrorPassWord" class="text-danger" style="display: none"></div>
                     </div>                    
                 </div>
                 <div class="row">
                     <div class="col-6 form-group">
                         <label for="">Ngày Sinh : </label>
                         <input type="date" class="form-control" id="txtNgaySinh">
+                        <div id="divErrorDateOfBirth" class="text-danger" style="display: none"></div>
                     </div>
                     <div class="col-6 form-group">
                         <label for="">Khóa học: </label>
@@ -46,20 +51,24 @@
                             <option>KH001</option>
                             <option>KH002</option>
                         </select>
+                        <div id="divErrorKH" class="text-danger" style="display: none"></div>
                     </div>                    
                 </div>                
                 <div class="row">
                     <div class="col-4 form-group">
                         <label for="">Điểm toán : </label>
                         <input type="text" class="form-control" id="txtDiemToan">
+                        <div id="divErrorToan" class="text-danger" style="display: none"></div>
                     </div>
                     <div class="col-4 form-group">
                         <label for="">Điểm lý : </label>
                         <input type="text" class="form-control" id="txtDiemLy">
+                        <div id="divErrorLy" class="text-danger" style="display: none"></div>
                     </div>
                     <div class="col-4 form-group">
                         <label for="">Điểm hóa : </label>
                         <input type="text" class="form-control" id="txtDiemHoa">
+                        <div id="divErrorHoa" class="text-danger" style="display: none"></div>
                     </div>
                 </div>                
 
@@ -103,6 +112,7 @@
 
         <script src="./models/sinhvien.js"></script>
         <script src="./models/dssinhvien.js"></script>
+        <script src="./models/validation.js"></script>
         <script src="./models/main.js"></script>
     </div>
 </body>
