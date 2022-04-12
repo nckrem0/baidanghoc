@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  background-color: #f5f9fe !important;
+}
+
+header .navbar-brand {
+  color: color !important;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+header .nav-item {
+  padding: 20px;
+}
+
+header .nav-item .nav-link {
+  color: color !important;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+header .nav-item .nav-link::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  display: block;
+  background-color: #1d365e;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+header .nav-item .nav-link:hover {
+  color: color !important;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+header .nav-item .nav-link:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+header .active .nav-link {
+  color: color !important;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+header .active .nav-link::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+/*# sourceMappingURL=style.css.map */

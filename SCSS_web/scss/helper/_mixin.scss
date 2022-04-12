@@ -1,0 +1,5 @@
+@mixin styleText($fs, $fw, $color) {
+    color: color !important;
+    font-size: $fs;
+    font-weight: $fw;
+}
